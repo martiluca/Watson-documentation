@@ -1,0 +1,70 @@
+%!TEX program = lualatex
+\documentclass{article}
+
+% PACKAGES
+\usepackage[svgnames]{xcolor}
+\usepackage{graphicx, microtype, tikz, float}  
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
+\usepackage{newclude}
+\usepackage{csvsimple-legacy}
+
+% Code
+\usepackage{listings, caption}
+% Code style %
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{white},   
+    commentstyle=\color{teal},
+    keywordstyle=\color{purple},
+    numberstyle=\tiny\color{gray},
+    stringstyle=\color{violet},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+% \newenvironment{longlisting}{\captionsetup{type=listing}}{}
+
+% Custom
+\input{style/style}
+\input{commands}
+
+% Doc info
+\title{Watson Pipeline Documentation}
+\author{Martina Lucà \href{mailto:martina.luca@univr.it}{\faEnvelope[regular]}}
+\date{Last update: \today}
+
+% DOCUMENT
+\begin{document}
+
+% Title
+\maketitle
+
+% TOC
+\small
+\tableofcontents
+\normalsize
+
+% Sections
+\include*{sections/pywrapper}
+\include*{sections/snakemake}
+\includepdf{watson_no_done.pdf}
+
+% Appendix
+%\appendix
+%\section{Code}
+%\begin{longlisting}
+%    \inputminted[breaklines]{python}{code/auto_io_test.py}
+%    \caption{Python wrapper.}
+%    \label{pywrap}
+%\end{longlisting}
+
+\end{document}

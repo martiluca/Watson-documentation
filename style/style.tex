@@ -1,0 +1,45 @@
+% Page geometry
+\usepackage{geometry}
+\geometry{
+    top=3.0cm,
+    bottom=3.0cm,
+    outer=3.0cm,
+    inner=3.0cm
+}
+
+\setlength{\parindent}{0em} % no indentation
+
+% TypeFaces 
+\usepackage{fontspec}
+\setmainfont{SF-Pro-Text-Regular.otf}[
+    Path = ./style/fonts/ ,
+    BoldFont = SF-Pro-Text-Bold.otf ,
+    ItalicFont = SF-Pro-Text-RegularItalic.otf ,
+    BoldItalicFont = SF-Pro-Text-BoldItalic.otf ]
+
+\setmonofont{JetBrainsMono-Regular.ttf}[
+    Path = ./style/fonts/ ,
+    BoldFont = JetBrainsMono-Bold.ttf ,
+    ItalicFont = JetBrainsMono-Italic.ttf ,
+    BoldItalicFont = JetBrainsMono-BoldItalic.ttf ]
+
+\usepackage[fixed]{fontawesome5} % icons
+
+% Date format
+\usepackage[dayofweek]{datetime}
+\shortdate
+
+% Hyperref
+\usepackage{hyperref, url}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=teal,
+    pdftitle={watson documentation},
+    pdfauthor={martina luca}
+    }
+\urlstyle{same}
+
+% Labels (bold, "." as separator)
+\usepackage[labelfont={bf,sc},labelsep=period]{caption}

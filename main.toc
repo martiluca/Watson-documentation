@@ -1,0 +1,33 @@
+\contentsline {part}{I\hspace {1em}Python Wrapper}{1}{part.1}%
+\contentsline {section}{\numberline {1}Start the pipeline}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Getting the necessary files}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Re-running the pipeline}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Required files' format}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}LIMS\_supp\_sample\_sheet.csv}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}FASTQ file list}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Changing directories}{4}{section.3}%
+\contentsline {section}{\numberline {4}Multithreading}{5}{section.4}%
+\contentsline {section}{\numberline {5}Output handling}{5}{section.5}%
+\contentsline {section}{\numberline {6}Checking if the pipeline was completed sucessfully}{6}{section.6}%
+\contentsline {part}{II\hspace {1em}Snakemake}{7}{part.2}%
+\contentsline {section}{\numberline {7}Rules}{7}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Alignment}{7}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Alignment QC}{8}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}On Target Calculation}{9}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Generate on target calculation files}{9}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}On target calculation}{10}{subsubsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.4}Contamination Index Calculation}{10}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Clipping}{11}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Variant Calling}{12}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Variant Filtering}{12}{subsection.7.7}%
+\contentsline {paragraph}{bcftools query.}{12}{section*.26}%
+\contentsline {paragraph}{sed.}{12}{section*.27}%
+\contentsline {paragraph}{awk.}{12}{section*.28}%
+\contentsline {subsection}{\numberline {7.8}SV Calling (Pindel)}{14}{subsection.7.8}%
+\contentsline {subsubsection}{\numberline {7.8.1}Prepare Pindel BAM}{14}{subsubsection.7.8.1}%
+\contentsline {subsubsection}{\numberline {7.8.2}Prepare Pindel Config}{14}{subsubsection.7.8.2}%
+\contentsline {subsubsection}{\numberline {7.8.3}Pindel}{15}{subsubsection.7.8.3}%
+\contentsline {subsection}{\numberline {7.9}BRASS}{17}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Copy Number (PureCN)}{18}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Variant Annotation}{19}{subsection.7.11}%
+\contentsline {subsection}{\numberline {7.12}Hypermutation}{19}{subsection.7.12}%

@@ -1,0 +1,1 @@
+nohup ./StartPipeline.py -t [THREADS] &

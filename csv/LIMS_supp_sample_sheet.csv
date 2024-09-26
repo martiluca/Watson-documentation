@@ -1,0 +1,11 @@
+LIMS_ID,Sample_ID,Project,SampleType,PreservationType,TumourType,Species,Gender,GermlineConsent,MatchNorm,AmountDNAused,LibConc,LibType,BaitsetID,SeqContID,TubeBarcode
+Run077b09,07709,corepanel,Tumour,Fixed,Notspecified,Human,Male,Yes,No,70,10.3,panel,3184181,AHCG73AFX5,RUN077BC09
+Run077b10,07710,corepanel,Tumour,Fixed,Notspecified,Human,Male,Yes,No,70,13.8,panel,3184181,AHCG73AFX5,RUN077BC10
+Run077b11,07711,corepanel,Tumour,Fixed,Notspecified,Human,Male,Yes,No,70,13.2,panel,3184181,AHCG73AFX5,RUN077BC11
+Run077b12,07712,corepanel,Tumour,Fixed,Notspecified,Human,Male,Yes,No,70,11,panel,3184181,AHCG73AFX5,RUN077BC12
+Run077b13,07713,corepanel,Tumour,Fixed,Notspecified,Human,Male,Yes,No,70,11.7,panel,3184181,AHCG73AFX5,RUN077BC13
+Run077b14,07714,corepanel,Tumour,Fixed,Notspecified,Human,Female,Yes,No,70,12.2,panel,3184181,AHCG73AFX5,RUN077BC14
+Run077b15,07715,corepanel,Tumour,Fixed,Notspecified,Human,Female,Yes,No,70,11.3,panel,3184181,AHCG73AFX5,RUN077BC15
+Run077b16,07716,corepanel,Tumour,Fixed,Notspecified,Human,Male,Yes,No,70,11.2,panel,3184181,AHCG73AFX5,RUN077BC16
+Run010b10b,01010b,corepanel,Tumour,Fixed,Notspecified,Human,Female,Yes,No,50,208,panel,3184181,AH2HFHBGXF,RUN010BC10
+Run010b11b,01011b,corepanel,Tumour,Fixed,Notspecified,Human,Female,Yes,No,50,193,panel,3184181,AH2HFHBGXF,RUN010BC11
