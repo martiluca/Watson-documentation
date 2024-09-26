@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.6.8)  26 SEP 2024 17:14
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.6.8)  26 SEP 2024 17:22
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"/Users/marti/Documents/borsa/Watson documentation/main"
@@ -1022,19 +1022,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35666 strings out of 476447
- 477819,1977958 words of node,token memory allocated
+ 35668 strings out of 476447
+ 477814,1977958 words of node,token memory allocated
  509 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 1 local_par, 5 glue, 3 kern, 1 penalty, 3 glyph, 7 attribute, 55 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:6,2:7078,3:1077,4:8391,5:7637,6:137,7:15517,8:3,9:22258,10:54,11:1357
- 56684 multiletter control sequences out of 65536+600000
- 73 fonts using 57278559 bytes
+   avail lists: 1:6,2:7078,3:1079,4:8391,5:7637,6:136,7:15517,8:4,9:22258,10:54,11:1357
+ 56686 multiletter control sequences out of 65536+600000
+ 74 fonts using 57498567 bytes
  84i,17n,112p,1063b,1088s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf><./style/fonts/SF-Pro-Text-RegularItalic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf><./style/fonts/JetBrainsMono-Regular.ttf><./style/fonts/JetBrainsMono-Bold.ttf><./style/fonts/SF-Pro-Text-Bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Regular-400.otf><./style/fonts/SF-Pro-Text-Regular.otf>
-Output written on main.pdf (20 pages, 181430 bytes).
+<./style/fonts/SF-Pro-Text-RegularItalic.otf><./style/fonts/JetBrainsMono-Regular.ttf><./style/fonts/JetBrainsMono-Bold.ttf><./style/fonts/SF-Pro-Text-Bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf><./style/fonts/SF-Pro-Text-Regular.otf>
+Output written on main.pdf (20 pages, 180865 bytes).
 
-PDF statistics: 581 PDF objects out of 1000 (max. 8388607)
- 521 compressed objects within 6 object streams
+PDF statistics: 575 PDF objects out of 1000 (max. 8388607)
+ 518 compressed objects within 6 object streams
  291 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 
